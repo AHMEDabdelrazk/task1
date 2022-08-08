@@ -1,0 +1,400 @@
+body{
+  margin: 0px;
+}
+.udText{
+    background-color: rgb(68, 68, 170);
+    color: white;
+    padding: 20px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(255, 255, 255);
+}
+.cours{
+  margin-left: 20px;
+}
+.cours button{
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 0px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(116, 109, 109);
+}
+#pressed{
+  color: black;
+}
+.search{
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+    margin: 20px;
+  }
+.Tx{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.ud{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+  }
+.Lin{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px ;
+    cursor: pointer;
+  }
+.Sin{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+.icon2{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-bottom: 15px;
+  padding-top: 2px;
+  padding-left: 10ps;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.icon1{
+  background-color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+  color: black;
+  font-size: larger;
+  text-align: left;
+  padding-left: 15px;
+  width: 400px;
+  height: 130px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 10px rgb(219 219 223);
+}
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: black;
+}
+.broad{
+  padding-left:30px;
+  margin-top: 60px;
+  font-size:xx-large;
+}
+.choose{
+  padding-left:30px;
+  margin-top: 20px;
+  font-size: large;
+}
+.bord{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(177, 171, 171);
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+.T1{
+  margin-left: 35px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.explore{
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-weight:bolder;
+  padding: 15px ;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.flex-container{
+  background-color: rgb(255, 255, 255);
+  width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+}
+.flex-container div{
+   background-color: rgb(255, 255, 255);
+   color: white;
+   width: calc(98% / 7);
+   text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  }
+.flex-Text{
+  background-color: rgb(255, 255, 255);
+  width: 1265px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  display: flex;
+  margin-top: 0px;
+  justify-content: space-between;
+  }
+.flex-Text div{
+   background-color: rgb(255, 255, 255);
+   width: 255px;
+   color: rgb(0, 0, 0);
+   font-weight: bolder;
+   text-align: left;
+   padding-left: 20px;
+   padding-top: 0px;
+  }
+.flex-Tech{
+    background-color: rgb(255, 255, 255);
+    width: 1265px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+  }
+.flex-Tech div{
+     background-color: rgb(255, 255, 255);
+     width: 255px;
+     color: rgb(156, 151, 151);
+     font-weight: lighter;
+     font-size: smaller;
+     text-align: left;
+     padding-left: 20px;
+     padding-top: 0px;
+  }
+  .flex-star{
+      background-color: rgb(255, 255, 255);
+      width: 1265px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 0px;
+      display: flex;
+      margin-top: 0px;
+      justify-content: space-between;
+  }
+  .flex-star div{
+       background-color: rgb(255, 255, 255);
+       width: 255px;
+       font-weight: bolder;
+       text-align: left;
+       padding-left: 20px;
+       padding-top: 0px;
+  }
+  .flex-price{
+        background-color: rgb(255, 255, 255);
+        width: 1265px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        display: flex;
+        margin-top: 0px;
+        justify-content: space-between;
+  }
+  .flex-price div{
+         background-color: rgb(255, 255, 255);
+         width: 255px;
+         font-weight: bolder;
+         text-align: left;
+         padding-left: 20px;
+         padding-top: 0px;
+  }
+  #Best{
+    border: none;
+    height: 25px;
+    width: 68px;
+    background-color: rgb(228, 228, 148);
+    position: absolute;
+    bottom: -620px;
+    left: 320px;
+  }
+  #srch{
+      position: absolute;
+      bottom: 517px;
+      left: 225px;
+
+  }
+  .checked {
+      color: orange;
+  }
+  #last {
+      color: orange;
+  }
+  .bar{
+    display: none;
+  }
+  @media (max-width:1359px) {
+    .topnav {
+      display: none;
+    }
+    .bar{
+      display: contents;
+      background-color: rgb(255, 255, 255);
+      height: 50px;
+    }
+    #br{
+      float: right;
+    }
+    .centered {
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      box-shadow: none;
+      text-align:left;
+      width:1340px;
+      height:200px;
+      background-color: rgb(192, 192, 192);
+      color: rgb(37, 6, 6);
+    }
+    .flex-container{
+      background-color: rgb(255, 255, 255);
+      width: 1200px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0px;
+      flex-direction: column;
+      
+    }
+    .flex-container div{
+       background-color: rgb(255, 255, 255);
+       color: white;
+       width: calc(98% / 7);
+       text-align: center;
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 5px;
+      }
+    .flex-Text{
+      position:absolute;
+      bottom: -1000px;
+      left: 330px;
+      background-color: rgb(255, 255, 255);
+      width: 1265px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 0px;
+      display: flex;
+      margin-top: 0px;
+      justify-content: space-between;
+      flex-direction: column;
+      }
+    .flex-Text div{
+       background-color: rgb(255, 255, 255);
+       width: 255px;
+       color: rgb(0, 0, 0);
+       font-weight: bolder;
+       text-align: left;
+       padding-left: 20px;
+       padding-top: 0px;
+       margin-top: 120px;
+      }
+    .flex-Tech{
+      position:absolute;
+      bottom: -1000px;
+      left: 630px;
+        background-color: rgb(255, 255, 255);
+        width: 1265px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 0px;
+        display: flex;
+        margin-top: 0px;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+    .flex-Tech div{
+         background-color: rgb(255, 255, 255);
+         width: 255px;
+         color: rgb(156, 151, 151);
+         font-weight: lighter;
+         font-size: smaller;
+         text-align: left;
+         padding-left: 20px;
+         padding-top: 0px;
+       margin-top: 120px;
+      }
+      .flex-star{
+          position:absolute;
+          bottom: -1000px;
+          left: 830px;
+          background-color: rgb(255, 255, 255);
+          width: 1265px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 0px;
+          display: flex;
+          margin-top: 0px;
+          justify-content: space-between;
+          flex-direction: column;
+      }
+      .flex-star div{
+           background-color: rgb(255, 255, 255);
+           width: 255px;
+           font-weight: bolder;
+           text-align: left;
+           padding-left: 20px;
+           padding-top: 0px;
+           margin-top: 120px;
+      }
+      .flex-price{
+        position:absolute;
+        bottom: -1000px;
+        left: 990px;
+            background-color: rgb(255, 255, 255);
+            width: 1265px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 0px;
+            display: flex;
+            margin-top: 0px;
+            justify-content: space-between;
+            flex-direction: column;
+      }
+      
+  .flex-price div{
+    background-color: rgb(255, 255, 255);
+    width: 255px;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 120px;
+}
+  }
